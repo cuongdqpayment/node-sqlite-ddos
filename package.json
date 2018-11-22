@@ -1,0 +1,26 @@
+{
+  "name": "sqlite-ddos",
+  "version": "1.0.0",
+  "description": "Server nodejs use sqlite3 database and ddos prevent",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "cheerio": "^1.0.0-rc.2",
+    "dddos": "^0.1.2",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "mime-types": "^2.1.21",
+    "node-html-parser": "^1.1.11",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "sqlite3": "^4.0.4",
+    "url": "^0.11.0"
+  }
+}
