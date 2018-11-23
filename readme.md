@@ -71,7 +71,7 @@ openssl req -new -key ./cert/privatekey.pem -out ./cert/my-com-req-cert.csr
 Do tự xác nhận trên máy nên ta dùng luôn công cụ để tạo ra file certificate. Lệnh
 To generate a temporary certificate which is good for 365 days, issue the following command:
 To generate a temporary certificate which is good for 365 days, issue the following command:
-openssl x509 -req -days <so luong ngay> -in <file yeu cau buoc 2> -signkey <file private key cua to chuc xac nhan hoac self buoc 1> -out <ten file certificate da gan ma chung thuc>
+openssl x509 -req -days <so luong ngay> -in <file yeu cau buoc 2> -signkey <file private key cua to chuc (midle_key.perm) xac nhan OR self buoc 1> -out <ten file certificate da gan ma chung thuc>
 ex:
 openssl x509 -req -days 365 -in ./cert/my-com-req-cert.csr -signkey ./cert/my-private-public-key.pem -out ./cert/my-certificate.pem
 
